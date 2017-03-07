@@ -40,14 +40,14 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(../Pics/Front/IMG_9843.jpg); 
+  background-image: url(../Pics/Front/IMG_0237.jpg); 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(../Pics/Front/IMG_0237.jpg);
+  background-image: url(../Pics/Front/luis-llerena-14779.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(../Pics/Front/luis-llerena-14779.jpg);
+  background-image: url(../Pics/Front/IMG_9843.jpg);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
