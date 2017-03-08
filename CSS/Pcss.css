@@ -60,8 +60,10 @@ h2 + p {
 	text-align: center;
 }
 
-
-
+#portfolioItems {
+  display: flex; 
+  flex-wrap: wrap;
+}
 
 
 
