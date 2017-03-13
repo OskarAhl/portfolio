@@ -40,22 +40,22 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(../Pics/Front/IMG_0237.jpg); 
+  background-image: url("http://i.imgur.com/SXIatmM.jpg"); 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(../Pics/Front/luis-llerena-14779.jpg);
+  background-image: url("http://i.imgur.com/7LHAtPZ.jpg");
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(../Pics/Front/IMG_9843.jpg);
+  background-image: url("http://i.imgur.com/XXwdqWs.jpg");
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(../Pics/Front/ilya-pavlov-87438.jpg);
+  background-image: url("http://i.imgur.com/IKGH63O.jpg");
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
-  background-image: url(../Pics/Front/bram-naus-200967.jpg);
+  background-image: url("http://i.imgur.com/zH81Sf1.jpg");
   animation-delay: 40s; 
 }
 
