@@ -78,7 +78,8 @@ h2 + p {
   position: relative;
   text-align: center;
   cursor: default;
-  background: #d268dd;
+/*  background: #d268dd;*/
+  background: #c211dd;  
   margin-bottom: 10px;
 }
 
@@ -106,7 +107,7 @@ h2 + p {
 }
 
 .hovereffect:hover img {
-  opacity: 0.3;
+  opacity: 0.1;
   filter: alpha(opacity=30);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
