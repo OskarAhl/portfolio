@@ -1,92 +1,22 @@
+
+
 <div class="container">
-<h2>Portfolio:</h2>
-  <div class="row" id="portfolioItems">
-    <div class="col-lg-4 col-sm-6">
-      <div class="thumbnail">
-        <div class="hovereffect">
-          <img class="img-responsive" src="http://i.imgur.com/r0h0ZVb.png">
-          <div class="overlay">
-            <h2>HTML, CSS, Vanilla JS</h2>
-            <a href="https://oskarahl.github.io/50Shades-of-RGB/" target="blank">Check it out</a>
-          </div>
-          </div>
-          <span>
-            <strong><a href="https://oskarahl.github.io/50Shades-of-RGB/" target="blank">
-              Front End - 50 Shades of RGB:</a></strong> "Guess the color" game
-              <br>
-              <strong><a href="https://github.com/OskarAhl/50Shades-of-RGB/tree/gh-pages" target="blank">Check out the code: </a></strong> HTML, CSS, Vanilla JavaScript
-          </span>
-      </div>
+  <h2>Portfolio:</h2>
+    <div class="row" id="portfolioItems">
+      <div class="col-lg-4 col-sm-6" ng-repeat="info in data">
+        <div class="thumbnail">
+          <div class="hovereffect">
+            <img class="img-responsive" src="{{ info.pic }}">
+            <div class="overlay">
+              <h2>{{ info.overlay }}</h2>
+              <a href="{{ info.play }}" target="blank">Check it out</a>
+            </div>
+            </div>
+            <span>
+              <strong><a href="{{ info.play }}" target="blank"> {{ info.name }}</a></strong> {{ info.text }}
+                <br>
+                <strong><a href="{{ info.code }}" target="blank">Check out the code: </a></strong> {{ info.codetext }}
+            </span>
+        </div>
     </div>
-
-
-    <div class="col-lg-4 col-sm-6">
-      <div class="thumbnail">
-        <div class="hovereffect">
-          <img class="img-responsive" src="http://i.imgur.com/UN4D0H6.png">
-          <div class="overlay">
-            <h2>HowlerJS, PaperJS</h2>
-            <a href="https://oskarahl.github.io/patatap-clone/" target="blank">Check it out</a>
-          </div>
-          </div>
-          <span>
-            <a href="https://oskarahl.github.io/patatap-clone/" target="blank"><strong>Front End - Patatap Clone: </strong> </a> User can create music and animations by pressing keys:
-            <br>
-            <strong><a href="https://github.com/OskarAhl/patatap-clone/tree/gh-pages" target="blank">Check out the code: </a></strong>PaperJS, HowlerJS
-          </span>
-      </div>
-    </div>
-
-      <div class="col-lg-4 col-sm-6">
-      <div class="thumbnail">
-        <div class="hovereffect">
-          <img class="img-responsive" src="http://i.imgur.com/UvbfMOR.jpg">
-          <div class="overlay">
-            <h2> NodeJS, MongoDB, ExpressJS, EJS, Mongoose, REST, Passport </h2>
-            <a href="https://yelpcampreview.herokuapp.com/campgrounds" target="blank">Check it out</a>
-          </div>
-          </div>
-        <span>
-          <a href="https://yelpcampreview.herokuapp.com/campgrounds" target="blank"><strong>Full stack - Yelpcamp:</strong> </a> RESTful Yelp Clone for camp sites. User can sign up, login, add/edit/delete content.
-          <br>
-          <strong><a href="https://github.com/OskarAhl/yelpcamp" target="blank">Check out the code: </a></strong>NodeJS, MongoDB, ExpressJS, EJS, Mongoose, REST, Passport
-        </span>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-sm-6">
-      <div class="thumbnail">
-        <div class="hovereffect">
-          <img class="img-responsive" src="http://i.imgur.com/0NEChJQ.png">
-          <div class="overlay">
-            <h2> API, JSON, NodeJS, npm, ExpressJS, EJS, Semantic UI </h2>
-            <a href="https://oskarmovies.herokuapp.com/" target="blank">Check it out</a>
-          </div>
-          </div>
-        <span>
-          <a href="https://oskarmovies.herokuapp.com/" target="blank"><strong>Full stack - Oskarmovies:</strong> </a> User can compare IMDB-rating vs. Rottentomatoes for movies.
-          <br>
-          <strong><a href="https://github.com/OskarAhl/IMDB-vs-RottenTomatoes/tree/gh-pages" target="blank">Check out the code: </a></strong>OMDB API, NodeJS, npm, ExpressJS, EJS, Semantic UI
-        </span>
-      </div>
-    </div>
-
-
-    <div class="col-lg-4 col-sm-6">
-      <div class="thumbnail">
-        <div class="hovereffect">
-          <img class="img-responsive" src="http://i.imgur.com/BFZZ4oH.png">
-          <div class="overlay">
-            <h2>HTML, CSS, jQuery</h2>
-            <a href="https://oskarahl.github.io/Memory-Span-Tester/" target="blank">Check it out</a>
-          </div>
-          </div>
-        <span>
-          <a href="https://oskarahl.github.io/Memory-Span-Tester/" target="blank"><strong>Memory-Span Tester:</strong></a> Timer-based game inspired by the classic "Simon Game"
-          <br>
-          <strong><a href="https://github.com/OskarAhl/Memory-Span-Tester/tree/gh-pages" target="blank">Check out the code: </a></strong> jQuery, HTML, CSS
-        </span>
-      </div>
-    </div>
-  </div>
 </div>

@@ -1,19 +1,3 @@
-var angularApp = angular.module('angularApp', ['ngRoute']);
-
-angularApp.config(function ($routeProvider) {
-
-    $routeProvider
-      .when('/', {
-        templateUrl: 'pages/main.html',
-        controller:'mainController'
-      })
-      .when('/about', {
-        templateUrl: 'pages/about.html',
-        controller: ''
-      })
-
-});
-
 angularApp.controller('mainController', ['$scope', function($scope) {
 
   $scope.data = [
@@ -63,5 +47,3 @@ angularApp.controller('mainController', ['$scope', function($scope) {
         codetext: "jQuery, HTML, CSS"
       }
   ];
-
-}]);
