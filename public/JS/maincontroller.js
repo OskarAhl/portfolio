@@ -1,5 +1,5 @@
 angularApp.controller('mainController', ['$scope', function($scope) {
-
+  
   $scope.data = [
       {
         name: "Front End - 50 Shades of RGB:",
@@ -47,3 +47,4 @@ angularApp.controller('mainController', ['$scope', function($scope) {
         codetext: "jQuery, HTML, CSS"
       }
   ];
+}]);
