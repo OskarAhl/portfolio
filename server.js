@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.set("view options", {layout: false});
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/src'));
 
 app.get("/", function(req,res) {
   res.render("index.html");

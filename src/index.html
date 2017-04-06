@@ -7,9 +7,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="CSS/Pcss.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-
   <script src="https://code.angularjs.org/1.3.0-rc.1/angular.min.js"></script>
   <script src="https://code.angularjs.org/1.3.0-rc.1/angular-route.min.js"></script>
+	<script src="https://code.angularjs.org/1.3.0-rc.1/angular-animate.min.js"></script>
+
   <script type="text/javascript" src="JS/app.js"></script>
   <script type="text/javascript" src="JS/controllers/maincontroller.js"></script>
   <script type="text/javascript" src="JS/routes.js"></script>
@@ -17,8 +18,9 @@
   <script type="text/javascript" src="JS/directives/dir.js"></script>
 </head>
 <body>
-
-<custom-nav></custom-nav>
+	
+<div ng-include src="'JS/directives/header.html'">
+</div>
 
 <div ng-view>
 

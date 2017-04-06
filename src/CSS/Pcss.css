@@ -43,7 +43,7 @@ span {
 }
 
 #profilepic {
-	margin-bottom: 40px;	
+	margin-bottom: 40px;
 	border-radius: 5px;
 }
 
@@ -61,7 +61,7 @@ h2 + p {
 }
 
 #portfolioItems {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -79,7 +79,7 @@ h2 + p {
   text-align: center;
   cursor: default;
 /*  background: #d268dd;*/
-  background: #c211dd;  
+  background: #c211dd;
   margin-bottom: 10px;
 }
 
