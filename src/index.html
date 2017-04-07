@@ -11,15 +11,14 @@
   <script src="https://code.angularjs.org/1.3.0-rc.1/angular-route.min.js"></script>
 	<script src="https://code.angularjs.org/1.3.0-rc.1/angular-animate.min.js"></script>
 
-  <script type="text/javascript" src="JS/app.js"></script>
-  <script type="text/javascript" src="JS/controllers/maincontroller.js"></script>
-  <script type="text/javascript" src="JS/routes.js"></script>
-  <script type="text/javascript" src="JS/services/services.js"></script>
-  <script type="text/javascript" src="JS/directives/dir.js"></script>
+  <script type="text/javascript" src="app/app.module.js"></script>
+  <script type="text/javascript" src="app/portfolio/portfolioController.js"></script>
+  <script type="text/javascript" src="app/routes.js"></script>
+  <script type="text/javascript" src="app/portfolio/portfolioService.js"></script>
 </head>
 <body>
-	
-<div ng-include src="'JS/directives/header.html'">
+
+<div ng-include src="'app/layout/header.html'">
 </div>
 
 <div ng-view>
