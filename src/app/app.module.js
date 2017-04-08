@@ -1,1 +1,1 @@
-var angularApp = angular.module('angularApp', ['ngRoute', 'ngAnimate']);
+var angularApp = angular.module('angularApp', ['ui.router', 'ngAnimate']);

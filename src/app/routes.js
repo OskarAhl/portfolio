@@ -1,14 +1,16 @@
-angularApp.config(function ($routeProvider) {
+angularApp.config(function ($stateProvider, $urlRouterProvider) {
 
-    $routeProvider
-      .when('/', {
+    $urlRouterProvider.otherwise('/portfolio')
+
+    $stateProvider
+
+      .state('home', {
+        url:'/portfolio',
         templateUrl: 'app/portfolio/portfolio.html',
         controller: 'portfolioController'
       })
-      .when('/about', {
-        templateUrl: 'app/about/about.html',
-        controller: ''
+      .state('about', {
+        url: '/about',
+        templateUrl: 'app/about/about.html'
       })
-      .otherwise({ redirectTo: '/' })
-
 });
