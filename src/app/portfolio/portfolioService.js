@@ -1,7 +1,7 @@
-angularApp.service('sharedata', function($http) {
+angularApp.service('projectData', function($http) {
   this.data = [
     {
-      name: "Front End - 50 Shades of RGB:",
+      name: "50 Shades of RGB:",
       pic: "http://i.imgur.com/r0h0ZVb.png",
       overlay: "HTML, CSS, Vanilla JS",
       play: "https://oskarahl.github.io/50Shades-of-RGB/",
@@ -10,7 +10,7 @@ angularApp.service('sharedata', function($http) {
       codetext: "HTML, CSS, Vanilla JS"
     },
     {
-      name: "Front End - Patatap Clone:",
+      name: "Patatap Clone:",
       pic: "http://i.imgur.com/UN4D0H6.png",
       overlay: "PaperJS, HowlerJS",
       play: "https://oskarahl.github.io/patatap-clone/",
@@ -19,16 +19,16 @@ angularApp.service('sharedata', function($http) {
       codetext: "PaperJS, HowlerJS"
     },
     {
-      name: "Full stack - Yelpcamp:",
+      name: "RESTful App: Yelpcamp:",
       pic: "http://i.imgur.com/UvbfMOR.jpg",
-      overlay: "NodeJS, MongoDB, ExpressJS, EJS, Mongoose, REST, PassportJS",
+      overlay: "NodeJS, MongoDB, ExpressJS, EJS, Mongoose, REST, PassportJS, Bootstrap",
       play: "https://yelpcampreview.herokuapp.com/campgrounds",
       code: "https://github.com/OskarAhl/yelpcamp",
       text: "RESTful Yelp Clone for camp sites. User can sign up, login, add/edit/delete content.",
-      codetext: "NodeJS, MongoDB, ExpressJS, EJS, Mongoose, REST, PassportJS"
+      codetext: "Bootstrap, NodeJS, ExpressJS, PassportJS, EJS, MongoDB Mongoose, REST"
     },
     {
-      name: "Full stack - Oskarmovies:",
+      name: "Oskarmovies:",
       pic: "http://i.imgur.com/0NEChJQ.png",
       overlay: "API, JSON, NodeJS, npm, ExpressJS, EJS, Semantic UI",
       play: "https://oskarmovies.herokuapp.com/",
@@ -44,6 +44,15 @@ angularApp.service('sharedata', function($http) {
       code: "https://github.com/OskarAhl/Memory-Span-Tester/tree/gh-pages",
       text: "Timer-based game inspired by the classic 'Simon Game'",
       codetext: "jQuery, HTML, CSS"
+    },
+    {
+      name: "MEAN App: Malaysia Starbucks finder:",
+      pic: "http://i.imgur.com/a3QAYyG.png",
+      overlay: "AngularJS, Google Maps API, NodeJs, ExpressJS, MongoDB, Mongoose",
+      play: "https://starbucksmap.herokuapp.com/#/map",
+      code: "https://github.com/OskarAhl/starbucksapp",
+      text: "Find all Starbucks locations in Malaysia. Satisfy your coffee and wifi desire.",
+      codetext: "AngularJS, Google Maps API, NodeJs, ExpressJS, MongoDB, Mongoose"
     }
   ];
 });

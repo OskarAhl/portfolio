@@ -3,7 +3,7 @@
 <div class="container">
   <h2 class="">Portfolio:</h2>
     <div class="row" id="portfolioItems">
-      <div class="col-lg-4 col-sm-6 " ng-repeat="info in data | orderBy:'name'">
+      <div class="col-lg-4 col-sm-6 " ng-repeat="info in projectData | orderBy:'name'">
         <div class="thumbnail item">
           <div class="hovereffect">
             <img class="img-responsive" src="{{ info.pic }}">

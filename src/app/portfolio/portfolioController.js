@@ -1,6 +1,5 @@
-angularApp.controller('portfolioController', ['$scope', 'sharedata', function($scope, sharedata) {
+angularApp.controller('portfolioController', ['$scope', 'projectData', function($scope, projectData) {
 
-  $scope.data = sharedata.data;
-  console.log($scope.data);
+  $scope.projectData = projectData.data;
 
 }]);;
